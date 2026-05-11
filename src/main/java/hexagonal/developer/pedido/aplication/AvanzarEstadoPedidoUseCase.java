@@ -10,6 +10,7 @@ import lombok.RequiredArgsConstructor;
 public class AvanzarEstadoPedidoUseCase implements AvanzarEstadoPedidoPort {
     private final PedidoRepositoryPort pedidoRepositoryPort;
 
+    //Logic
     @Override
     public Pedido avanzarEstado(Long id) {
         Pedido pedido = pedidoRepositoryPort.buscarPorId(id)
