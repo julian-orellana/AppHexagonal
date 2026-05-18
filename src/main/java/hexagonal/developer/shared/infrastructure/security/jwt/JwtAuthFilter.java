@@ -32,6 +32,7 @@ public class JwtAuthFilter extends OncePerRequestFilter {
             return;
         }
 
+        //limpieza del token
         String token = authHeader.substring(7);
 
         if (jwtService.validarToken(token)) {
