@@ -4,4 +4,5 @@ public class DetalleTest {
     //Infrastructure
     //Logica
     //¿?
+    // pipeline
 }
