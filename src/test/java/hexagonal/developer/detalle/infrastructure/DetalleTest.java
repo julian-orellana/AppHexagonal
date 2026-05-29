@@ -5,4 +5,5 @@ public class DetalleTest {
     //Logica
     //¿?
     // pipeline
+    //CI/CD
 }
