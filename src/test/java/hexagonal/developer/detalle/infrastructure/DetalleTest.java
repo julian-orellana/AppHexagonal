@@ -6,4 +6,6 @@ public class DetalleTest {
     //¿?
     // pipeline
     //CI/CD
+
+    //testt
 }
